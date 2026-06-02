@@ -41,7 +41,6 @@ jobs:
           flags: unit-tests
           files: target/site/jacoco/jacoco.xml
           slug: guacsec/trustify-da-api-spec
-          fail_ci_if_error: false
 
   openapi-lint-checks:
     runs-on: ubuntu-latest
